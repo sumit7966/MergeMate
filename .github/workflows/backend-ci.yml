@@ -40,3 +40,4 @@ jobs:
       - name: Build backend Docker container
         run: |
           docker build -t mergemate-backend:ci ./backend
+

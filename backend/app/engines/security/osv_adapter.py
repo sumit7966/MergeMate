@@ -77,3 +77,4 @@ class OSVAdapter:
                     lineno += 1
 
         return findings
+

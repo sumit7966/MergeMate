@@ -40,3 +40,4 @@ def get_notification_settings(user: User = Depends(get_current_user)):
 @router.patch("/notifications")
 def update_notification_settings(settings: dict, user: User = Depends(get_current_user)):
     return {"message": "Notification preferences updated", "settings": settings}
+

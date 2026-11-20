@@ -111,3 +111,4 @@ class RuffAdapter:
                     lineno += 1
 
         return findings
+

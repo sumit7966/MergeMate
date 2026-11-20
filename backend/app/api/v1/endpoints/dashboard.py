@@ -18,3 +18,4 @@ def get_dashboard_overview(db: Session = Depends(get_db), user: User = Depends(g
 @router.get("/recent-reviews", response_model=List[RecentReviewItem])
 def get_recent_reviews(limit: int = 10, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
     return DashboardService.get_recent_reviews(db, limit=limit)
+

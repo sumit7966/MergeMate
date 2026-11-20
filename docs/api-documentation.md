@@ -116,3 +116,4 @@ MergeMate exposes a structured REST API documented via OpenAPI. When the backend
 ### Simulate Live PR Webhook Event
 `POST /api/v1/demo/simulate-webhook`
 Generates a realistic pull request with deliberate security defects, runs the entire multi-engine analysis pipeline, stores findings, and returns the review report.
+

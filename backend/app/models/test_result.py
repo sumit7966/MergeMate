@@ -24,3 +24,4 @@ class TestResult(Base, TimestampMixin):
 
     # Relationships
     review: Mapped["Review"] = relationship("Review", back_populates="test_results")
+

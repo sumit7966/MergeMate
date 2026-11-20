@@ -60,3 +60,4 @@ def get_me(user: User = Depends(get_current_user), db: Session = Depends(get_db)
         current_organization_id=membership.organization_id if membership else None,
         current_role=membership.role if membership else None
     )
+

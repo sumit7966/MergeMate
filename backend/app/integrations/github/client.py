@@ -76,3 +76,4 @@ class GitHubClient:
         except Exception as e:
             logger.error(f"Exception posting GitHub review: {e}")
             return None
+

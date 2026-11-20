@@ -227,3 +227,4 @@ export const PullRequestsPage: React.FC = () => {
     </div>
   );
 };
+

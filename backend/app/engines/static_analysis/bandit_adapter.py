@@ -82,3 +82,4 @@ class BanditAdapter:
                     lineno += 1
 
         return findings
+

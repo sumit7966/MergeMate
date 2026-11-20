@@ -289,3 +289,4 @@ class DemoDataService:
 
         db.commit()
         logger.info("Demo data seed completed successfully.")
+

@@ -65,3 +65,4 @@ flowchart TD
 ### 2.5 GitHub Review Publisher
 - Formats structured review summaries with markdown tables, severity counts, and shields.
 - Posts inline review comments directly to the GitHub PR matching diff line positions.
+

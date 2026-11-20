@@ -42,3 +42,4 @@ class OrganizationMemberResponse(BaseModel):
 
     class Config:
         from_attributes = True
+

@@ -201,3 +201,4 @@ class OpenAIProvider(LLMProvider):
             "confidence_score": 0.94 if findings else 0.88,
             "findings": findings
         }
+

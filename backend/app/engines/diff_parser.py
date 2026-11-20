@@ -100,3 +100,4 @@ class DiffParser:
             else:
                 output.append(f"  L{line.new_lineno}: {line.content}")
         return "\n".join(output)
+

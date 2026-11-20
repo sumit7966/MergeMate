@@ -96,3 +96,4 @@ def trigger_pull_request_review(id: str, db: Session = Depends(get_db), user: Us
 @router.post("/{id}/review/rerun")
 def rerun_pull_request_review(id: str, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
     return trigger_pull_request_review(id, db, user)
+

@@ -22,3 +22,4 @@ class LLMProvider(ABC):
         - confidence_score: float
         """
         pass
+

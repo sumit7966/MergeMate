@@ -20,3 +20,4 @@ class User(Base, TimestampMixin):
     memberships: Mapped[List["OrganizationMember"]] = relationship("OrganizationMember", back_populates="user", cascade="all, delete-orphan")
     feedbacks: Mapped[List["UserFeedback"]] = relationship("UserFeedback", back_populates="user")
     notifications: Mapped[List["Notification"]] = relationship("Notification", back_populates="user", cascade="all, delete-orphan")
+

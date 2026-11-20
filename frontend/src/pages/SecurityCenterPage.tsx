@@ -149,3 +149,4 @@ export const SecurityCenterPage: React.FC = () => {
     </div>
   );
 };
+

@@ -87,3 +87,4 @@ def remove_organization_member(
     db.delete(member)
     db.commit()
     return {"message": "Member removed successfully"}
+

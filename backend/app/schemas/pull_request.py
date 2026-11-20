@@ -45,3 +45,4 @@ class PullRequestResponse(PullRequestBase):
 
 class PullRequestDetailResponse(PullRequestResponse):
     files: Optional[List[ChangedFile]] = []
+

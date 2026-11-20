@@ -48,3 +48,4 @@ erDiagram
 ## 3. Retention & Privacy Policies
 - **Source Code**: Raw source code is never permanently stored on disk; diff context is ephemeral and purged upon review completion.
 - **Secret Redaction**: Gitleaks and AI detectors mask credentials prior to persisting code evidence in `review_findings`.
+

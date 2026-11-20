@@ -55,3 +55,4 @@ class GitHubAppAuth:
         except Exception as e:
             logger.error(f"Network error getting installation token: {e}")
             return None
+

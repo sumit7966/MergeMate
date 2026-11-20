@@ -43,3 +43,4 @@ class AuditLog(Base, TimestampMixin):
     resource_id: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
     ip_address: Mapped[Optional[str]] = mapped_column(String(45), nullable=True)
     details: Mapped[Optional[dict]] = mapped_column(JSON, default=dict)
+

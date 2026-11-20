@@ -191,3 +191,4 @@ export const TeamPage: React.FC = () => {
     </div>
   );
 };
+

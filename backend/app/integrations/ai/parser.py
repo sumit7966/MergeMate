@@ -98,3 +98,4 @@ class AIResponseParser:
             "confidence_score": confidence_score,
             "findings": validated_findings
         }
+

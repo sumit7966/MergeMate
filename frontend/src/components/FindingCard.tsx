@@ -177,3 +177,4 @@ export const FindingCard: React.FC<FindingCardProps> = ({ finding, isSelected, o
     </div>
   );
 };
+

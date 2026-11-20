@@ -33,3 +33,4 @@ class PullRequest(Base, TimestampMixin):
     repository: Mapped["Repository"] = relationship("Repository", back_populates="pull_requests")
     review_jobs: Mapped[List["ReviewJob"]] = relationship("ReviewJob", back_populates="pull_request", cascade="all, delete-orphan")
     reviews: Mapped[List["Review"]] = relationship("Review", back_populates="pull_request", cascade="all, delete-orphan")
+

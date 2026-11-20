@@ -12,3 +12,4 @@ def setup_logging():
 
 
 logger = logging.getLogger("mergemate")
+

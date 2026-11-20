@@ -52,3 +52,4 @@ DIFF CHUNKS:
 
 Analyze the changes thoroughly and output the JSON response matching the required schema.
 """
+

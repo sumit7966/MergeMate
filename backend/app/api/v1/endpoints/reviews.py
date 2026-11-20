@@ -73,3 +73,4 @@ async def publish_review_to_github(id: str, db: Session = Depends(get_db), user:
         "github_review_id": review.github_review_id,
         "github_published_at": review.github_published_at
     }
+

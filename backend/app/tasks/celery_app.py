@@ -20,3 +20,4 @@ celery_app.conf.update(
 
 # Autodiscover tasks
 celery_app.autodiscover_tasks(["app.tasks.review_tasks"])
+

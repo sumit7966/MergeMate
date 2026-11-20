@@ -42,3 +42,4 @@ def remove_installation(id: str, db: Session = Depends(get_db), user: User = Dep
     db.delete(inst)
     db.commit()
     return {"message": "GitHub App installation removed successfully."}
+

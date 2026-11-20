@@ -127,3 +127,4 @@ class GitHubReviewPublisher:
         review.github_review_id = 99990001
         review.github_published_at = datetime.now(timezone.utc)
         return True
+

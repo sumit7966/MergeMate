@@ -34,3 +34,4 @@ class UserResponse(UserBase):
 class UserProfileResponse(UserResponse):
     current_organization_id: Optional[str] = None
     current_role: Optional[str] = None
+

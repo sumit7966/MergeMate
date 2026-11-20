@@ -49,3 +49,4 @@ class UserFeedback(Base, TimestampMixin):
     # Relationships
     finding: Mapped["ReviewFinding"] = relationship("ReviewFinding", back_populates="feedbacks")
     user: Mapped["User"] = relationship("User", back_populates="feedbacks")
+

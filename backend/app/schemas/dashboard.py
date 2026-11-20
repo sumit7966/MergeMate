@@ -43,3 +43,4 @@ class WebhookPayload(BaseModel):
     repository: Optional[Dict[str, Any]] = None
     installation: Optional[Dict[str, Any]] = None
     sender: Optional[Dict[str, Any]] = None
+

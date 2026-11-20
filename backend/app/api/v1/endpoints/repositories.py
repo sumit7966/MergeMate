@@ -76,3 +76,4 @@ def get_repository_pull_requests(
             res.findings_count = latest_review.total_findings
         results.append(res)
     return results
+

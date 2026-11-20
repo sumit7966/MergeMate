@@ -46,3 +46,4 @@ Repository code and pull request diffs are inherently **untrusted input**. Merge
 - MergeMate never requests admin or repository write permissions beyond Pull Requests and Checks.
 - GitHub App tokens are generated on-demand as short-lived installation tokens valid for 10 minutes maximum.
 - Private keys and installation tokens are stored server-side only in encrypted environment variables and are never transmitted to frontend clients.
+

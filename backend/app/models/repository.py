@@ -50,3 +50,4 @@ class RepositorySettings(Base, TimestampMixin):
 
     # Relationships
     repository: Mapped["Repository"] = relationship("Repository", back_populates="settings")
+

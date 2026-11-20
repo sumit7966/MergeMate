@@ -24,3 +24,4 @@ def test_diff_parser_hunk_and_line_mapping():
     context = DiffParser.extract_changed_context(diff)
     assert "+ L11:     x = 10" in context
     assert "+ L12:     return x + 1" in context
+

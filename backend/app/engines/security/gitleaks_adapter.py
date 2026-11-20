@@ -65,3 +65,4 @@ class GitleaksAdapter:
                     lineno += 1
 
         return findings
+

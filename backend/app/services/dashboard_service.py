@@ -96,3 +96,4 @@ class DashboardService:
                 "github_published": r.github_published
             })
         return results
+

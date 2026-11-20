@@ -71,3 +71,4 @@ def mask_secret(value: str) -> str:
     if not value or len(value) < 8:
         return "********"
     return f"{value[:3]}...{value[-4:]}"
+

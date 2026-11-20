@@ -168,3 +168,4 @@ class IsolatedTestExecutor:
 
         total = passed + failed + skipped
         return {"total": total, "passed": passed, "failed": failed, "skipped": skipped}
+

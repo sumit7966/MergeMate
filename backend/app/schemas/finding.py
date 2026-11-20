@@ -49,3 +49,4 @@ class FindingResponse(FindingBase):
 
     class Config:
         from_attributes = True
+

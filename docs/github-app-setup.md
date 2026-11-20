@@ -58,3 +58,4 @@ Check the following event subscriptions:
 2. Select your account or organization.
 3. Choose either **All repositories** or select specific target repositories.
 4. MergeMate will automatically receive the `installation` webhook and synchronize the repositories.
+

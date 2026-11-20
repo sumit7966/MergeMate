@@ -58,3 +58,4 @@ def test_osv_adapter_detects_vulnerable_package():
     }]
     findings = OSVAdapter.scan_diff(files)
     assert any("CVE-2023-32681" in f.title for f in findings)
+

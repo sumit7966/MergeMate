@@ -248,3 +248,4 @@ You can immediately verify the full vertical slice without setting up external a
 ## License
 
 MergeMate is licensed under the Apache 2.0 License. Built for engineering teams that move fast and ship with confidence.
+

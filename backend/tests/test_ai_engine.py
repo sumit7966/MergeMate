@@ -60,3 +60,4 @@ def test_ai_response_parser_invalid_line_fallback():
 
     assert len(parsed["findings"]) == 1
     assert parsed["findings"][0].line_start is None  # moved to file-level
+

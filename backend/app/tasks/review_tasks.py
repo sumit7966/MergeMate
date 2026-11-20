@@ -24,3 +24,4 @@ def process_review_job(self, review_job_id: str):
         raise self.retry(exc=exc, countdown=10)
     finally:
         db.close()
+

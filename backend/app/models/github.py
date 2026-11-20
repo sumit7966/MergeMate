@@ -20,3 +20,4 @@ class GitHubInstallation(Base, TimestampMixin):
     # Relationships
     organization: Mapped["Organization"] = relationship("Organization", back_populates="installations")
     repositories: Mapped[List["Repository"]] = relationship("Repository", back_populates="installation", cascade="all, delete-orphan")
+

@@ -17,3 +17,4 @@ class CorrelationIdMiddleware(BaseHTTPMiddleware):
         response.headers["X-Correlation-ID"] = correlation_id
         response.headers["X-Process-Time-Ms"] = str(process_time)
         return response
+
